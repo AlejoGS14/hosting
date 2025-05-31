@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  header {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #fff;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    color: #0a9396;
+    border-bottom: 2px solid #94d2bd;
+    padding-bottom: 5px;
+  }
+  
+  a {
+    color: #0077b6;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+  }
+  
+  #modo-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #94d2bd;
+    color: #005f73;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+  }
+  
+  body.dark-mode section {
+    background-color: #2a2a2a;
+  }
+  
+  body.dark-mode a {
+    color: #80ffdb;
+  }
+  
+  body.dark-mode footer {
+    background-color: #0a9396;
+  }
+  
